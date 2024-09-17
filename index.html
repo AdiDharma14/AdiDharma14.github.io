@@ -12,7 +12,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    
+
     <link rel="stylesheet" href="Assets/Style/app.css" />
     <link
       rel="stylesheet"
@@ -23,7 +23,7 @@
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title >Adi Dharma's Profile</title>
+    <title>Adi Dharma's Profile</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -79,203 +79,223 @@
       ></path>
     </svg>
     <section id="biodata" class="biodata">
-      <h1 class="text-center">Biodata</h1>
+      <h1 data-aos="fade-up" data-aos-duration="800" class="text-center">
+        Biodata
+      </h1>
       <div class="container text-center" data-aos="fade-up">
         <div class="row">
-          <div class="col-sm">
+          <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
             provident labore mollitia nostrum odio maiores quia error, et
             excepturi ipsum dolor pariatur. Neque, enim sed?
           </div>
-          <div class="col">
-            <!-- Button trigger modal -->
-            <p class="text-center start">Started On</p>
-            <button
-              type="button"
-              class="btn btn-danger"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Pendidikan SD
-            </button>
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                     Intansi Pendidikan/Sekolah
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
+          <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4 mb-2">
+            <h4 class="subNameHeading fw-bold">EDUCATION</h4>
+            <div class="education">
+              <!-- Button trigger modal -->
+              <p class="startEnd">Started on Jul 2010</p>
+              <button
+                type="button"
+                class="btn btn-danger itemEdu"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal1"
+              >
+                SDN Karangraharja 01
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal1"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Achievement
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">champion in the class</div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
-                  <div class="modal-body">SDN Cemara Jaya 1</div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
+                </div>
+              </div>
+              <p class="startEnd">Finished on Jun 2016</p>
+              <i class="fas fa-arrow-circle-down itemEdu"></i>
+              <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+              <p class="startEnd">Started on Jul 2016</p>
+              <button
+                type="button"
+                class="btn btn-danger itemEdu"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal2"
+              >
+                SMPN 2 North Cikarang
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal2"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Achievement
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">champion in the class</div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="startEnd">Finished on Jun 2019</p>
+              <i class="fas fa-arrow-circle-down itemEdu"></i>
+              <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+              <p class="startEnd">Started on Jul 2019</p>
+              <button
+                type="button"
+                class="btn btn-danger itemEdu"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+              >
+                SMKN 2 West Cikarang
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal3"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Achievement
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      1. 8th place in the Bekasi district web technology
+                      competition. <br />
+                      2. 1st place in the Bekasi district scientific work
+                      competition. <br />
+                      3. Won a silver medal at the National Science Olympiad in
+                      Physics. <br />
+                      4. Won a silver medal at the National Science Olympiad in
+                      Chemistry. <br />
+                      5. Won a bronze medal at the National Science Olympiad in
+                      Biology. <br />
+                      6. Microsoft office webinar resource persons. <br />
+                      7. Head of programming club SMKN 2 West Cikarang.
+                      <br />
+                      8. Champion class
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="startEnd">Finished on Jun 2022</p>
+              <i class="fas fa-arrow-circle-down itemEdu"></i>
+              <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+              <p class="startEnd">Started on</p>
+              <button
+                type="button"
+                class="btn btn-danger itemEdu"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal4"
+              >
+                University (Coming Soon)
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal4"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Achievement
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">Not yet</div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <p class="text-center">Finised On</p>
           </div>
-          <div class="col">
-            <!-- Button trigger modal -->
-            <p class="text-center start">Started On</p>
-            <button
-              type="button"
-              class="btn btn-danger"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Pendidikan SD
-            </button>
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                     Intansi Pendidikan/Sekolah
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">SDN Cemara Jaya 1</div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p class="text-center">Finised On</p>
-          </div>
-          <div class="col">
-            <!-- Button trigger modal -->
-            <p class="text-center start">Started On</p>
-            <button
-              type="button"
-              class="btn btn-danger"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Pendidikan SD
-            </button>
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                     Intansi Pendidikan/Sekolah
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">SDN Cemara Jaya 1</div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p class="text-center">Finised On</p>
-          </div>
-          <div class="col">
-            <!-- Button trigger modal -->
-            <p class="text-center start">Started On</p>
-            <button
-              type="button"
-              class="btn btn-danger"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Pendidikan SD
-            </button>
-            <!-- Modal -->
-            <div
-              class="modal fade"
-              id="exampleModal"
-              tabindex="-1"
-              aria-labelledby="exampleModalLabel"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">
-                     Intansi Pendidikan/Sekolah
-                    </h5>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      data-bs-dismiss="modal"
-                      aria-label="Close"
-                    ></button>
-                  </div>
-                  <div class="modal-body">SDN Cemara Jaya 1</div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <p class="text-center">Finised On</p>
-          </div>
-          <div class="col-sm">
+          <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
             id facere esse sunt accusamus at velit, exercitationem deleniti
             praesentium autem quaerat dolorem sapiente amet. Repellat, rem
@@ -297,7 +317,8 @@
                     22 December 2022
                   </h6>
                   <p class="card-text">
-                    Mendapatkan sertifikat penghargaan dengan predikat "Sangat Baik"
+                    Mendapatkan sertifikat penghargaan dengan predikat "Sangat
+                    Baik"
                   </p>
                   <a href="Assets/Image/Sertifikat PKL.jpg" class="card-link"
                     >View</a
@@ -311,7 +332,9 @@
                   <h5 class="card-title">Sertifikat Kompetensi</h5>
                   <h6 class="card-subtitle mb-2 text-muted">18 April 2024</h6>
                   <p class="card-text">
-                    Memiliki sertifikat kompetensi Akuntansi yang dikeluarkan oleh <abbr title="Badan Nasional Sertifikasi Profesi">BNSP</abbr>
+                    Memiliki sertifikat kompetensi Akuntansi yang dikeluarkan
+                    oleh
+                    <abbr title="Badan Nasional Sertifikasi Profesi">BNSP</abbr>
                   </p>
                   <a
                     href="Assets/Image/Sertifikat Kompetensi.jpg"
@@ -327,7 +350,10 @@
                   <h5 class="card-title">Piagam Penghargaan Sekolah</h5>
                   <h6 class="card-subtitle mb-2 text-muted">1 Mei 2024</h6>
                   <p class="card-text">
-                    Mendapatkan piagam penghargaan dengan predikat "Karakter Terbaik & Nilai <abbr title="Uji Kompetensi Kejuruan">UKK</abbr> Terbaik III"
+                    Mendapatkan piagam penghargaan dengan predikat "Karakter
+                    Terbaik & Nilai
+                    <abbr title="Uji Kompetensi Kejuruan">UKK</abbr> Terbaik
+                    III"
                   </p>
                   <a
                     href="Assets/Image/Piagam Penghargaan.jpg"

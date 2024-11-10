@@ -20,7 +20,7 @@ body {
 
 .profile h4 {
   color: white;
-  transform: translateY(-25px);
+  transform: translateY(-15px);
 }
 
 .biodata {
@@ -31,6 +31,15 @@ body {
 .row {
   padding: 0px 20px;
   padding-top: 30px;
+}
+
+.biodataText {
+  text-align: justify;
+  font-size: 15pt;
+}
+
+.achievementList {
+  text-align: justify;
 }
 
 .achievement {
@@ -60,7 +69,7 @@ body {
   padding-top: 50px;
 }
 
-h4 {
+.subNameHeading h4 {
   display: flex;
   justify-content: center;
   align-items: center;

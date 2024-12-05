@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+  background: linear-gradient(#002855 0%, #3498db 40%, #74b9ff 100%);
 }
 
 .profile {
@@ -15,12 +15,20 @@ body {
 }
 
 .profile h2 {
-  color: white;
+  color: rgb(172, 172, 172);
+}
+
+.profile h2:hover {
+  color: rgb(255, 255, 255);
 }
 
 .profile h4 {
-  color: white;
+  color: rgb(172, 172, 172);
   transform: translateY(-15px);
+}
+
+.profile h4:hover {
+  color: rgb(255, 255, 255);
 }
 
 .biodata {
@@ -60,9 +68,13 @@ body {
 }
 
 .contact a {
-  color: black;
+  color: rgb(126, 126, 126);
   font-size: 50px;
   padding-inline: 10px;
+}
+
+.contact a:hover {
+  color: #000000;
 }
 
 .watermarkpoint {

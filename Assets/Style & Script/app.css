@@ -15,20 +15,8 @@ body {
 }
 
 .profile h2 {
-  color: rgb(172, 172, 172);
-}
-
-.profile h2:hover {
   color: rgb(255, 255, 255);
-}
-
-.profile h4 {
-  color: rgb(172, 172, 172);
-  transform: translateY(-15px);
-}
-
-.profile h4:hover {
-  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .biodata {

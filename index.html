@@ -1,455 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"~
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="Assets/Style & Script/app.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" ~
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
-    <title>Adi Dharma's Profile</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="font-family: 'Brush Script MT', cursive">Adi Dharma | 240210007</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#biodata">Biodata</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#achievement">Achievement</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+  <link rel="stylesheet" href="Assets/Style & Script/app.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <title>Adi Dharma's Profile</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="font-family: 'Brush Script MT', cursive">Adi Dharma | 240210007</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#biodata">Biodata</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#achievement">Achievement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <section>
+    <div class="container nameprofile">
+      <div class="profile">
+        <img class="rounded-circle profileimage" src="Assets/Image/IMG_20240909_000614.jpg" alt="" />
+        <h2>
+          <span class="typewriter"></span>
+        </h2>
+      </div>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#ffffff" fill-opacity="1"
+      d="M0,64L26.7,85.3C53.3,107,107,149,160,154.7C213.3,160,267,128,320,96C373.3,64,427,32,480,37.3C533.3,43,587,85,640,90.7C693.3,96,747,64,800,74.7C853.3,85,907,139,960,144C1013.3,149,1067,107,1120,112C1173.3,117,1227,171,1280,170.7C1333.3,171,1387,117,1413,90.7L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
+    </path>
+  </svg>
+  <section id="biodata" class="biodata">
+    <h1 data-aos="fade-up" data-aos-duration="800" class="text-center">
+      BIODATA
+    </h1>
+    <div class="container text-center" data-aos="fade-up">
+      <div class="row">
+        <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4 mb-2 biodataText">
+          My name is Adi Dharma Caga Pratama, and I am 18 years old. I have a strong passion for studying computers and
+          all aspects related to technology. I completed my secondary education at SMKS Yos Anugerah Batam, majoring in
+          Financial Accounting & Institution. Currently, I am pursuing a degree in Informatics Engineering at Putera
+          Batam University to deepen my knowledge and skills in technology and computer science. I aspire to continue
+          developing myself and contributing to the field I am passionate about.
+        </div>
+        <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4 mb-2">
+          <h4 class="subNameHeading fw-bold">
+            EDUCATION
+          </h4>
+          <div class="education">
+            <!-- Button trigger modal -->
+            <p class="startEnd">Started on Jul 2010</p>
+            <button type="button" class="btn btn-primary itemEdu" data-bs-toggle="modal"
+              data-bs-target="#exampleModal1">
+              SDN Cemara Jaya 1
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Achievement
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ol class="achievementList">
+                      <li>2nd Champion In The Class</li>
+                      <li>3rd Champion In The Class</li>
+                      <li>Best Math Scores in 5th Grade</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="startEnd">Finished on Jun 2016</p>
+            <i class="fas fa-arrow-circle-down itemEdu"></i>
+            <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+            <p class="startEnd">Started on Jul 2016</p>
+            <button type="button" class="btn btn-primary itemEdu" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2">
+              SMPS Yos Anugerah Batam
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Achievement
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ol class="achievementList">
+                      <li>3rd Champion In The Class</li>
+                      <li>Best Math Scores 7th Grade</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="startEnd">Finished on Jun 2021</p>
+            <i class="fas fa-arrow-circle-down itemEdu"></i>
+            <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+            <p class="startEnd">Started on Jul 2021</p>
+            <button type="button" class="btn btn-primary itemEdu" data-bs-toggle="modal"
+              data-bs-target="#exampleModal3">
+              SMKS Yos Anugerah Batam
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Achievement
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ol class="achievementList">
+                      <li>Intern Students With "Excellent" Achievements.</li>
+                      <li>
+                        Declared Competent for Competency of Accounting and
+                        Finansial Skills Institutions.
+                      </li>
+                      <li>
+                        Students With The Best Character & 3rd Best Vocational
+                        Competency Test Scores.
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="startEnd">Finished on Jun 2024</p>
+            <i class="fas fa-arrow-circle-down itemEdu"></i>
+            <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+            <p class="startEnd">Started on Sep 2024</p>
+            <button type="button" class="btn btn-primary itemEdu" data-bs-toggle="modal"
+              data-bs-target="#exampleModal4">
+              Universitas Putera Batam
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Achievement
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body achievementList text-center">
+                    Not Yet
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Hope To Complete Studies On Time at -->
+            <!-- <p class="startEnd">Finished on Sep 2028</p> -->
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4 biodataText">
+          I am an enthusiastic individual with interests in several fields, including photography, videography, and
+          programming, particularly in <em>Web Development And Database Development</em>. My passion for photography and
+          videography is driven by the desire to capture beautiful and memorable moments, which I then share with
+          others. Meanwhile, programming fascinates me because it allows me to gain a deeper and better understanding of
+          technology and computers. I aspire to further develop my skills in all three of these fields.
         </div>
       </div>
-    </nav>
-    <section>
-      <div class="container nameprofile">
-        <div class="profile">
-          <img
-            class="rounded-circle profileimage"
-            src="Assets/Image/IMG_20240909_000614.jpg"
-            alt=""
-          />
-          <h2>
-            <span
-              class="typewriter"
-            ></span>
-          </h2>
-        </div>
-      </div>
-    </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#ffffff"
-        fill-opacity="1"
-        d="M0,64L26.7,85.3C53.3,107,107,149,160,154.7C213.3,160,267,128,320,96C373.3,64,427,32,480,37.3C533.3,43,587,85,640,90.7C693.3,96,747,64,800,74.7C853.3,85,907,139,960,144C1013.3,149,1067,107,1120,112C1173.3,117,1227,171,1280,170.7C1333.3,171,1387,117,1413,90.7L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-      ></path>
-    </svg>
-    <section id="biodata" class="biodata">
-      <h1 data-aos="fade-up" data-aos-duration="800" class="text-center">
-        BIODATA
+  </section>
+  <section id="achievement" class="achievement">
+    <div class="container">
+      <h1 style="color: white" data-aos="fade-up" data-aos-duration="800" class="text-center">
+        ACHIEVEMENT
       </h1>
-      <div class="container text-center" data-aos="fade-up">
+      <div class="container" data-aos="fade-up" data-aos-duration="800">
         <div class="row">
-          <div
-            data-aos="fade-up"
-            data-aos-duration="800"
-            class="col-sm-4 biodataText"
-          >
-            Nama saya Adi Dharma Caga Pratama, saya berusia 18 tahun. Saya
-            memiliki minat yang besar dalam mempelajari komputer dan segala hal
-            yang berkaitan dengan teknologi. Pendidikan terakhir saya adalah di
-            SMKS Yos Anugerah Batam dengan jurusan Akuntansi Keuangan &
-            Lembaga. Saat ini, saya sedang melanjutkan studi di Universitas
-            Putera Batam dengan prodi Teknik Informatika untuk memperdalam pengetahuan dan keterampilan saya dalam bidang teknologi dan komputer.
-            Saya berharap dapat terus mengembangkan diri dan berkontribusi dalam
-            bidang yang saya minati.
-          </div>
-          <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4 mb-2">
-            <h4
-              class="subNameHeading fw-bold"
-            >
-              EDUCATION
-            </h4>
-            <div class="education">
-              <!-- Button trigger modal -->
-              <p class="startEnd">Started on Jul 2010</p>
-              <button
-                type="button"
-                class="btn btn-primary itemEdu"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal1"
-              >
-                SDN Cemara Jaya 1
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal1"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        Achievement
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <ol class="achievementList">
-                        <li>2nd Champion In The Class</li>
-                        <li>3rd Champion In The Class</li>
-                        <li>Best Math Scores in 5th Grade</li>
-                      </ol>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
+          <div class="col-sm-4">
+            <div class="card mx-auto" style="height: 15rem; width: 19rem;">
+              <div class="card-body">
+                <h5 class="card-title">Field Work Practice Certificate</h5>
+                <h6 class="card-subtitle mb-4 text-muted">
+                  22 December 2022
+                </h6>
+                <p class="card-text">
+                  Receiving a certificate of appreciation with the distinction of "Excellent"
+                </p>
+                <a href="Assets/Image/Sertifikat PKL.jpg" class="card-link">Click To View</a>
               </div>
-              <p class="startEnd">Finished on Jun 2016</p>
-              <i class="fas fa-arrow-circle-down itemEdu"></i>
-              <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
-              <p class="startEnd">Started on Jul 2016</p>
-              <button
-                type="button"
-                class="btn btn-primary itemEdu"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal2"
-              >
-                SMPS Yos Anugerah Batam
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal2"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        Achievement
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <ol class="achievementList">
-                        <li>3rd Champion In The Class</li>
-                        <li>Best Math Scores 7th Grade</li>
-                      </ol>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <p class="startEnd">Finished on Jun 2021</p>
-              <i class="fas fa-arrow-circle-down itemEdu"></i>
-              <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
-              <p class="startEnd">Started on Jul 2021</p>
-              <button
-                type="button"
-                class="btn btn-primary itemEdu"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal3"
-              >
-                SMKS Yos Anugerah Batam
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal3"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        Achievement
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <ol class="achievementList">
-                        <li>Intern Students With "Excellent" Achievements.</li>
-                        <li>
-                          Declared Competent for Competency of Accounting and
-                          Finansial Skills Institutions.
-                        </li>
-                        <li>
-                          Students With The Best Character & 3rd Best Vocational
-                          Competency Test Scores.
-                        </li>
-                      </ol>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <p class="startEnd">Finished on Jun 2024</p>
-              <i class="fas fa-arrow-circle-down itemEdu"></i>
-              <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
-              <p class="startEnd">Started on Sep 2024</p>
-              <button
-                type="button"
-                class="btn btn-primary itemEdu"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal4"
-              >
-                Universitas Putera Batam
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal4"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        Achievement
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body achievementList text-center">
-                      Not Yet
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Hope To Complete Studies On Time at -->
-              <!-- <p class="startEnd">Finished on Sep 2028</p> -->
             </div>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="800"
-            class="col-sm-4 biodataText"
-          >
-          Saya adalah seorang yang antusias dalam beberapa bidang seperti fotografi, videografi, dan pemrograman terutama <em>Web Development</em>. Minat saya di fotografi dan videografi didorong oleh keinginan untuk menangkap momen yang indah dan penuh kenangan yang kemudian akan saya bagikan kepada banyak orang. Sementara itu, pemrograman menarik bagi saya karena dapat membuat saya memahami teknologi dan komputer jauh lebih dalam dan lebih baik. Saya berharap dapat mengembangkan keterampilan saya di ketiga bidang tersebut.
-        </div>
-      </div>
-    </section>
-    <section id="achievement" class="achievement">
-      <div class="container">
-        <h1
-          style="color: white"
-          data-aos="fade-up"
-          data-aos-duration="800"
-          class="text-center"
-        >
-          ACHIEVEMENT
-        </h1>
-        <div class="container" data-aos="fade-up" data-aos-duration="800">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="card mx-auto" style="width: 19rem">
-                <div class="card-body">
-                  <h5 class="card-title">Sertifikat Praktik Kerja Lapangan</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">
-                    22 December 2022
-                  </h6>
-                  <p class="card-text">
-                    Mendapatkan sertifikat penghargaan dengan predikat "Sangat
-                    Baik"
-                  </p>
-                  <a href="Assets/Image/Sertifikat PKL.jpg" class="card-link"
-                    >Click To View</a
-                  >
-                </div>
+          <div class="col-sm-4">
+            <div class="card mx-auto" style="height: 15rem; width: 19rem">
+              <div class="card-body">
+                <h5 class="card-title">Certificate of Competency</h5>
+                <h6 class="card-subtitle mb-4 text-muted">18 April 2024</h6>
+                <p class="card-text">
+                  Holds a Certificate of Competency in Accounting issued by the National Professional Certification
+                  Agency (BNSP).
+                </p>
+                <a href="Assets/Image/Sertifikat Kompetensi.jpg" class="card-link">Click To View</a>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="card mx-auto" style="width: 19rem">
-                <div class="card-body">
-                  <h5 class="card-title">Sertifikat Kompetensi</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">18 April 2024</h6>
-                  <p class="card-text">
-                    Memiliki sertifikat kompetensi Akuntansi yang dikeluarkan
-                    oleh
-                    <abbr title="Badan Nasional Sertifikasi Profesi">BNSP</abbr>
-                  </p>
-                  <a
-                    href="Assets/Image/Sertifikat Kompetensi.jpg"
-                    class="card-link"
-                    >Click To View</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card mx-auto" style="width: 19rem">
-                <div class="card-body">
-                  <h5 class="card-title">Piagam Penghargaan Sekolah</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">1 Mei 2024</h6>
-                  <p class="card-text">
-                    Mendapatkan piagam penghargaan dengan predikat "Karakter
-                    Terbaik & Nilai
-                    <abbr title="Uji Kompetensi Kejuruan">UKK</abbr> Terbaik
-                    III"
-                  </p>
-                  <a
-                    href="Assets/Image/Piagam Penghargaan.jpg"
-                    class="card-link"
-                    >Click To View</a
-                  >
-                </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card mx-auto" style="height: 15rem; width: 19rem">
+              <div class="card-body">
+                <h5 class="card-title">School Award Certificate</h5>
+                <h6 class="card-subtitle mb-4 text-muted">1 May 2024</h6>
+                <p class="card-text">
+                  Received an award certificate with the distinction of "Best Character & Third Best Vocational Competency Test Score"
+                </p>
+                <a href="Assets/Image/Piagam Penghargaan.jpg" class="card-link">Click To View</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#fff"
-        fill-opacity="1"
-        d="M0,192L48,176C96,160,192,128,288,128C384,128,480,160,576,154.7C672,149,768,107,864,112C960,117,1056,171,1152,186.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-      ></path>
-    </svg>
-    <section id="contact" class="footer">
-      <h1 class="text-center" >CONTACT</h1>
-      <div class="container text-center contact">
-        <a href="https://wa.me/+6285669623197"
-          ><i class="fa-brands fa-whatsapp"><h6 style="font-family: 'Times New Roman', Times, serif;">WhatsApp</h6></i
-        ></a>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#fff" fill-opacity="1"
+      d="M0,192L48,176C96,160,192,128,288,128C384,128,480,160,576,154.7C672,149,768,107,864,112C960,117,1056,171,1152,186.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
+  <section id="contact" class="footer">
+    <h1 class="text-center">CONTACT</h1>
+    <div class="container text-center contact">
+      <a href="https://wa.me/+6285669623197"><i class="fa-brands fa-whatsapp">
+          <h6 style="font-family: 'Times New Roman', Times, serif;">WhatsApp</h6>
+        </i></a>
 
-        <a href="https://instagram.com/adidharma_1410?igshid=MmVlMjlkMTBhMg=="
-          ><i class="fa-brands fa-instagram"><h6 style="font-family: 'Times New Roman', Times, serif;">Instagram</h6></i
-        ></a>
-      </div>
-      <div class="text-center watermark">
-        <h6 class="watermarkpoint">Created By Adi Dharma 2024</h6>
-      </div>
-    </section>
-    <!-- Optional JavaScript; choose one of the two! -->
+      <a href="https://instagram.com/adidharma_1410?igshid=MmVlMjlkMTBhMg=="><i class="fa-brands fa-instagram">
+          <h6 style="font-family: 'Times New Roman', Times, serif;">Instagram</h6>
+        </i></a>
+    </div>
+    <div class="text-center watermark">
+      <h6 class="watermarkpoint">Created By Adi Dharma 2024</h6>
+    </div>
+  </section>
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    
-    <!--Bootstrap-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Typing Effect -->
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="Assets/Style & Script/script.js"></script>
-    <!-- Animate On Scroll -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+
+  <!--Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Typing Effect -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="Assets/Style & Script/script.js"></script>
+  <!-- Animate On Scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>

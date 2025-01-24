@@ -86,3 +86,77 @@ body {
 .startEnd {
   margin-bottom: -1px;
 }
+
+.contact-container {
+  padding-top: 10px;
+  border: #3498db;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-title h2{
+  font-family: 'Times New Roman';
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.contact-title hr {
+  border: none;
+  height: 5px;
+  width:100px; 
+  margin: auto;
+  background-color: #000000;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.contact-input {
+  padding-left: 25px;
+  width: 400px;
+  height: 50px;
+  outline: rgb(0, 0, 0);
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.contact-textarea {
+  resize: none;
+  padding-left: 25px;
+  height: 165px;
+  padding-top: 15px;
+  border: 2px solid #000000;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.contact-input::placeholder{
+  color: #000000;
+}
+
+.contact-textarea::placeholder{
+  color: #000000;
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  margin: 0 auto;
+  vertical-align: middle;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #0099ff, #0066ff);
+  cursor: pointer;
+}
